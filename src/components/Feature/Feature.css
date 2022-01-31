@@ -1,0 +1,44 @@
+.feature {
+    border-radius: 20px;
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(359deg, rgba(32, 37, 51, 1) 30%, rgba(37, 43, 58, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(359deg, rgba(32, 37, 51, 1) 30%, rgba(37, 43, 58, 1) 100%);
+    /* opera 11.10+ */
+    background: -o-linear-gradient(359deg, rgba(32, 37, 51, 1) 30%, rgba(37, 43, 58, 1) 100%);
+    /* ie 6-9 */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#202533', endColorstr='#252B3A', GradientType=1);
+    /* ie 10+ */
+    background: -ms-linear-gradient(359deg, rgba(32, 37, 51, 1) 30%, rgba(37, 43, 58, 1) 100%);
+    /* global 94%+ browsers support */
+    background: linear-gradient(359deg, rgba(32, 37, 51, 1) 30%, rgba(37, 43, 58, 1) 100%);
+}
+
+.feature__container {
+    padding: 32px 24px 24px 24px;
+}
+
+.feature__container-text {
+    color: #ffff;
+}
+
+.feature__container-grid {
+    display: grid;
+    grid-gap: 16px;
+}
+
+.feature__container-text>h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1.8px;
+    font-family: var(--syne-font);
+}
+
+.feature__container-text>p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    font-family: var(--urbanist-font);
+}
