@@ -1,0 +1,31 @@
+.tech {
+    border-radius: 50px;
+    padding: 50px 38px;
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(356deg, rgba(16, 171, 154, 1) 25%, rgba(18, 213, 193, 1) 48%);
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(356deg, rgba(16, 171, 154, 1) 25%, rgba(18, 213, 193, 1) 48%);
+    /* opera 11.10+ */
+    background: -o-linear-gradient(356deg, rgba(16, 171, 154, 1) 25%, rgba(18, 213, 193, 1) 48%);
+    /* ie 6-9 */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#10AB9A', endColorstr='#12D5C1', GradientType=1);
+    /* ie 10+ */
+    background: -ms-linear-gradient(356deg, rgba(16, 171, 154, 1) 25%, rgba(18, 213, 193, 1) 48%);
+    /* global 94%+ browsers support */
+    background: linear-gradient(356deg, rgba(16, 171, 154, 1) 25%, rgba(18, 213, 193, 1) 48%);
+}
+
+.tech>h1 {
+    font-family: var(--space-font);
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 32px;
+    color: white;
+}
+
+.tech>p {
+    font-family: var(--urbanist-font);
+    font-size: 22px;
+    line-height: 35.75px;
+    color: white;
+}

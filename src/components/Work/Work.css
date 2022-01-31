@@ -1,0 +1,33 @@
+.work__text>h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: var(--space-font);
+    color: #fff;
+}
+
+.work {
+    /* margin-bottom: 70px; */
+}
+
+.work__text>p {
+    font-size: 18px;
+    line-height: 29.26px;
+    font-family: var(--urbanist-font);
+    color: #fff;
+}
+
+.work__text {
+    padding: 24px;
+    display: grid;
+    grid-gap: 28px;
+    background-color: #2B3243;
+    position: relative;
+    bottom: 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+.work__img>img {
+    width: 100%;
+    border-radius: 20px;
+}

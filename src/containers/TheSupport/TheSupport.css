@@ -1,0 +1,37 @@
+@media only screen and (max-width: 760px) {
+    .thesupport__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .thesupport__container-img {
+        margin-top: 40px;
+    }
+}
+
+.thesupport__container-img>img {
+    width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+    .thesupport {
+        max-width: 550px;
+        padding: 30px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .thesupport {
+        max-width: 400px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .thesupport {
+        max-width: 330px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}

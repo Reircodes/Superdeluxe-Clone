@@ -1,0 +1,114 @@
+.navbar {
+    position: sticky;
+    padding: 30px 0;
+}
+
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.big__screen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small__screen {
+    display: none;
+}
+
+.navbar__container-hamburger {
+    display: none;
+}
+
+.navbar__container-items>div>p {
+    font-size: 14px;
+    font-family: var(--urbanist-font);
+    line-height: 21px;
+    color: #fff;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.navbar__container-items>div>p:hover {
+    transition: all 100ms ease;
+    color: #12d7c2;
+}
+
+.MuiButton-root {
+    background-color: #12d7c2 !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    padding: 12px 28px !important;
+    color: white !important;
+    font-family: var(--urbanist-font) !important;
+    border-radius: 25px !important;
+    font-weight: 700 !important;
+    width: 200px !important;
+}
+
+.MuiButton-root:hover {
+    background-color: #212634 !important;
+    color: #12d7c2 !important;
+    border: 1px solid #12d7c2 !important;
+}
+
+@media only screen and (max-width: 1020px) {
+    .navbar {
+        background-color: var(--navbar-color);
+    }
+    .big__screen {
+        display: none;
+    }
+    .navbar__container-hamburger {
+        display: block;
+        color: white;
+    }
+    .navbar__container {
+        position: relative;
+    }
+    .small__screen {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #212634;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 60%;
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .MuiButton-root {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .navbar {
+        max-width: 550px;
+        padding: 30px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .navbar {
+        max-width: 400px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .navbar {
+        max-width: 330px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}

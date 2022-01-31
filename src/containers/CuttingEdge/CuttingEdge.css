@@ -1,0 +1,67 @@
+.cuttingedge {
+    /* max-width: 1156px;
+    margin: auto; */
+}
+
+.cuttingedge__container-text {
+    display: grid;
+    grid-gap: 16px;
+}
+
+.cuttingedge__container-text>h1 {
+    font-family: var(--urbanist-font);
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--default-blue);
+    font-weight: 600;
+}
+
+.cuttingedge__container-text>h2 {
+    font-family: var(--space-font);
+    font-size: 42px;
+    line-height: 52.5px;
+    color: white;
+    font-weight: 700;
+}
+
+.cuttingedge__container-text>p {
+    font-family: var(--urbanist-font);
+    font-size: 22px;
+    line-height: 35.75px;
+    color: white;
+}
+
+.cuttingedge__container-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cuttingedge__container-img>img {
+    margin: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .cuttingedge__container-text>h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .cuttingedge {
+        max-width: 550px;
+        padding: 30px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .cuttingedge {
+        max-width: 330px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}

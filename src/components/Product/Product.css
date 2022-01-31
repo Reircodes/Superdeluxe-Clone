@@ -1,0 +1,38 @@
+.product__text>h1 {
+    font-family: var(--space-font);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: white;
+    text-align: center;
+}
+
+.product__text>p {
+    font-size: 18px;
+    font-family: 29.25px;
+    font-family: var(--urbanist-font);
+    color: white;
+    text-align: center;
+}
+
+.product__text {
+    display: grid;
+    grid-gap: 28px;
+}
+
+.product {
+    display: grid;
+    grid-gap: 28px;
+}
+
+.product__img {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .product__text>h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+}

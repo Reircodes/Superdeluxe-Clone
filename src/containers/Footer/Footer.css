@@ -1,0 +1,118 @@
+.footer {
+    max-width: 943px;
+    margin: auto;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__container-text {
+    padding-left: 30px;
+}
+
+.footer__container-text>h2 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    font-family: var(--space-font);
+}
+
+.footer__container-text>p {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.75px;
+    font-family: var(--urbanist-font);
+    color: white;
+}
+
+.footer__copyright {
+    padding: 20px 0;
+    margin: 20px 0 0 0;
+    border-top: 1px solid #2c3242;
+}
+
+.footer__copyright>p {
+    font-family: var(--urbanist-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1020px) {
+    .footer__container-text>h2 {
+        font-size: 42px;
+        line-height: 52.75px;
+    }
+    .footer {
+        max-width: 755px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 758px) {
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__conatiner-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .footer__conatiner-img>img {
+        margin: auto;
+    }
+    .footer {
+        max-width: 556px;
+        margin: auto;
+    }
+    .footer__container-text>h2 {
+        text-align: center;
+    }
+    .footer__container-text>p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .footer {
+        max-width: 550px;
+        padding: 30px;
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+/* 
+@media only screen and (max-width:550px) {
+    .footer {
+        max-width: 390px;
+        padding: 30px;
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+} */
+
+@media only screen and (max-width:480px) {
+    .footer {
+        max-width: 400px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .footer {
+        max-width: 330px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}

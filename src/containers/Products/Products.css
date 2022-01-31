@@ -1,0 +1,32 @@
+.products__container {
+    display: grid;
+    grid-gap: 15px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.products {}
+
+@media only screen and (max-width:600px) {
+    .products {
+        max-width: 550px;
+        padding: 30px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .products {
+        max-width: 400px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .products {
+        max-width: 330px !important;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}
